@@ -1,5 +1,66 @@
-# Object file
-*.o
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+venv/
 
-# Ada Library Information
-*.ali
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Dataset (WAJIB tidak di-commit)
+# =========================
+dataset/
+data/
+datasets/
+
+# Jika dataset pakai folder khusus
+train/
+test/
+validation/
+
+# =========================
+# Model hasil training
+# =========================
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+models/
+
+# =========================
+# Output & hasil visualisasi
+# =========================
+outputs/
+results/
+logs/
+*.log
+
+# =========================
+# Sistem Operasi
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
